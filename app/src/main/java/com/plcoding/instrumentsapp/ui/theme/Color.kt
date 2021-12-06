@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.ui.theme
+package com.plcoding.instrumentsapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

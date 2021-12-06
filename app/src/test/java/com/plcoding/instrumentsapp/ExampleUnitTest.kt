@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp
+package com.plcoding.instrumentsapp
 
 import org.junit.Test
 

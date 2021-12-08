@@ -8,5 +8,5 @@ interface InstrumentsRepository {
     fun getInstruments(): Flow<List<Instrument>>
     suspend fun getInstrumentById(id: Int): Instrument?
     suspend fun addInstrument(instrument: Instrument)
-    suspend fun removeInstrument(instrument: Instrument)
+    suspend fun deleteInstrument(instrument: Instrument)
 }

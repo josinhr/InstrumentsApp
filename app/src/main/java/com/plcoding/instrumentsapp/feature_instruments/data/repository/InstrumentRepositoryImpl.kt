@@ -18,7 +18,7 @@ class InstrumentRepositoryImpl(private val instrumentDao: InstrumentDao) : Instr
         return instrumentDao.addInstrument(instrument)
     }
 
-    override suspend fun removeInstrument(instrument: Instrument) {
+    override suspend fun deleteInstrument(instrument: Instrument) {
         return instrumentDao.removeInstrument(instrument)
     }
 }

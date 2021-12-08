@@ -3,17 +3,20 @@
     package="com.plcoding.instrumentsapp">
 
     <application
+        android:name=".CleanArchitectureNoteApp"
         android:allowBackup="true"
+        android:background="@drawable/background"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CleanArchitectureNoteApp">
         <activity
-            android:name="com.plcoding.instrumentsapp.MainActivity"
+            android:name="com.plcoding.instrumentsapp.feature_instruments.presentation.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CleanArchitectureNoteApp">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
